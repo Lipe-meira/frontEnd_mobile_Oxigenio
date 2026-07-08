@@ -8,6 +8,7 @@ const cores = {
   texto: '#17212B',
   textoSuave: '#5D6B78',
   borda: '#D8E4EA',
+  vermelho: '#801d16ce',
   erro: '#B42318',
 };
 

@@ -2,7 +2,7 @@ import { Alert, Linking, StyleSheet, Text, TouchableOpacity } from 'react-native
 
 import cores from '../styles/cores';
 
-export default function BotaoLink({ nome, endereco }) {
+export default function BotaoLink({ nome, endereco, style }) {
   async function abrirLink() {
     if (!endereco) {
       Alert.alert('Link indisponível', 'O endereço desta plataforma ainda não foi informado.');
@@ -24,7 +24,7 @@ export default function BotaoLink({ nome, endereco }) {
 
   return (
     <TouchableOpacity
-      style={styles.botao}
+      style={[styles.botao, style]}
       onPress={abrirLink}
       activeOpacity={0.8}
       accessibilityRole="button"

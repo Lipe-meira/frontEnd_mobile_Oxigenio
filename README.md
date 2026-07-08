@@ -116,7 +116,7 @@ Os links externos ficam em:
 src/data/links.js
 ```
 
-Spotify, Instagram, YouTube e página institucional foram centralizados para facilitar a troca por links oficiais atualizados.
+Spotify, Instagram e página institucional foram centralizados para facilitar a troca por links oficiais atualizados.
 
 ## Limitações
 

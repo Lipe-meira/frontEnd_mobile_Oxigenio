@@ -49,9 +49,22 @@ export default function InicioScreen({ navigation }) {
         <View style={styles.secaoLinks}>
           <Text style={styles.tituloSecao}>Acesse também</Text>
           <View style={styles.gradeLinks}>
-            {links.map((link) => (
-              <BotaoLink key={link.id} nome={link.nome} endereco={link.endereco} />
-            ))}
+            {links.map((link) =>
+              link.id !== 'voluntarie-se' ? (
+                <BotaoLink
+                  key={link.id}
+                  nome={link.nome}
+                  endereco={link.endereco}
+                />
+              ) : (
+                <BotaoLink
+                  key={link.id}
+                  nome={link.nome}
+                  endereco={link.endereco}
+                  style={{backgroundColor: cores.vermelho}}
+                />
+              )
+            )}
           </View>
           <Text style={styles.aviso}>
             Os links externos foram centralizados para facilitar a confirmação e a

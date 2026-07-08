@@ -13,16 +13,15 @@ const links = [
     observacao: 'Perfil publico encontrado para Oxigenio Central de Podcast.',
   },
   {
-    id: 'youtube',
-    nome: 'YouTube',
-    endereco: 'https://www.youtube.com/',
-    observacao: 'Substitua pelo canal oficial caso seja confirmado.',
-  },
-  {
     id: 'institucional',
     nome: 'Página institucional',
     endereco: 'https://portal.univali.br/extensao?school=8',
     observacao: 'Pagina institucional de extensao da Univali.',
+  },
+  {id: 'voluntarie-se',
+    nome: 'Voluntarie-se',
+    endereco: 'https://docs.google.com/forms/d/e/1FAIpQLSew3fkaaxOc1lATqPed3pDUuup8tIcG1w-puPRcFj91iRWKmQ/viewform',
+    observacao: 'Formulario para se voluntariar para o podcast.',
   },
 ];
 
