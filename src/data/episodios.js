@@ -7,7 +7,7 @@ const episodios = [
     ano: '2024',
     duracao: '47 min',
     descricaoCurta:
-      'Navegando pela sustentabilidade: cultura náutica e preservação ambiental em Itajaí.',
+      'Conversa sobre a relação de Itajaí com o mar, a cultura náutica e ações de preservação ambiental.',
     descricaoCompleta:
       'Neste episódio, recebemos Ana Júlia Krensiglova, coordenadora da Associação Náutica de Itajaí (ANI), e Adriano Marenzi, professor e biólogo marinho. Vamos explorar a relação de Itajaí com o mar, as ações da ANI no fortalecimento da cultura náutica local e as iniciativas ambientais para preservar os costões do Litoral Norte catarinense.',
     participantes: ['Oxigênio Central de Podcast', 'Ana Júlia Krensiglova, Adriano Marenzi'],
@@ -22,7 +22,7 @@ const episodios = [
     ano: '2024',
     duracao: '56 min',
     descricaoCurta:
-      'Arte e cultura em movimento.',
+      'Artistas convidados comentam vivências culturais, música e o papel da arte nas comunidades de Itajaí.',
     descricaoCompleta:
       'O podcast Oxigênio, Central de Podcast celebra a efervescência cultural de Itajaí com dois convidados ilustres. Wagner Kuhnen, tatuador, artista plástico, baterista da banda Ninguém Sabe e oficineiro do projeto Arte nos Bairros, compartilha sua vivência na transformação cultural das comunidades locais. Já Vê Domingos, professor de licenciatura em Artes Visuais e renomado músico, reflete sobre a importância da arte na formação pessoal e no fortalecimento da identidade de Itajaí.',
     participantes: ['Oxigênio Central de Podcast', 'Wagner Kuhnen, Vê Domingos'],
@@ -37,7 +37,7 @@ const episodios = [
     ano: '2024',
     duracao: '73 min',
     descricaoCurta:
-      'Gestão e Tributação, com o Professor Eduardo Krieger.',
+      'O professor Eduardo Krieger explica relações entre gestão, tributação e desenvolvimento regional.',
     descricaoCompleta:
       'Neste episódio, o podcast Oxigênio, Central de Podcast recebe o professor Eduardo Krieger, um especialista em Administração e Direito Tributário, com formação acadêmica sólida pela Univali. Na conversa, ele explora a relação entre gestão e tributação, destacando os desafios e oportunidades dessas áreas no contexto do desenvolvimento econômico e social de Itajaí e região.',
     participantes: ['Oxigênio Central de Podcast', 'Eduardo Krieger'],
@@ -52,7 +52,7 @@ const episodios = [
     ano: '2024',
     duracao: '60 min',
     descricaoCurta:
-      'Reciclagem e sustentabilidade: a trajetória de dona Marli Martins à frente da Reciclavale.',
+      'Dona Marli Martins apresenta sua trajetória na Reciclavale e os desafios da reciclagem.',
     descricaoCompleta:
       'Neste episódio, o podcast Oxigênio, Central de Podcast recebe Dona Marli Martins, CEO e fundadora da Cooperativa Reciclavale, de Itajaí. Com uma trajetória marcada pelo compromisso com a sustentabilidade, ela compartilha sua experiência à frente da cooperativa, discutindo os desafios e conquistas na promoção da reciclagem e da economia circular.',
     participantes: ['Oxigênio Central de Podcast', 'Dona Marli Martins'],
@@ -67,7 +67,7 @@ const episodios = [
     ano: '2024',
     duracao: '40 min',
     descricaoCurta:
-      'Neste episódio, o podcast Oxigênio, Central de Podcast recebe Lúcio Vieira, coordenador do programa de combate à dengue de Itajaí. Com vasta experiência na área de saúde pública, Lúcio compartilha os desafios enfrentados no controle da dengue na região, as estratégias adotadas para prevenir surtos e os esforços para conscientizar a população sobre a importância do combate ao mosquito transmissor.',
+      'Lúcio Vieira comenta estratégias de prevenção, controle da dengue e conscientização pública.',
     descricaoCompleta:
       'Neste episódio, o podcast Oxigênio, Central de Podcast recebe Lúcio Vieira, coordenador do programa de combate à dengue de Itajaí. Com vasta experiência na área de saúde pública, Lúcio compartilha os desafios enfrentados no controle da dengue na região, as estratégias adotadas para prevenir surtos e os esforços para conscientizar a população sobre a importância do combate ao mosquito transmissor.',
     participantes: ['Oxigênio Central de Podcast',   'Lúcio Vieira'],
@@ -82,7 +82,7 @@ const episodios = [
     ano: '2024',
     duracao: '38 min',
     descricaoCurta:
-      'Neste episódio, o podcast Oxigênio, Central de Podcast recebe Dona Bernadete Berto, voluntária da Associação Madre Teresa (AMT) de Itajaí. Com uma vida dedicada ao voluntariado, Dona Bernadete compartilha sua experiência de mais de anos ajudando a AMT a oferecer apoio e acolhimento a famílias em situação de vulnerabilidade social.',
+      'Dona Bernadete Berto relata sua vivência no voluntariado e no acolhimento de famílias.',
     descricaoCompleta:
       'Neste episódio, o podcast Oxigênio, Central de Podcast recebe Dona Bernadete Berto, voluntária da Associação Madre Teresa (AMT) de Itajaí. Com uma vida dedicada ao voluntariado, Dona Bernadete compartilha sua experiência de mais de 20 anos ajudando a AMT a oferecer apoio e acolhimento a famílias em situação de vulnerabilidade social.',
     participantes: ['Oxigênio Central de Podcast', 'Dona Bernadete Berto'],
@@ -97,7 +97,7 @@ const episodios = [
     ano: '2025',
     duracao: '24 min',
     descricaoCurta:
-      'Projeto Rondon: impactos da extensão universitária sob o olhar da profa. Ednéia Casagranda Bueno',
+      'A professora Ednéia Casagranda Bueno fala sobre o Projeto Rondon e a extensão universitária.',
     descricaoCompleta:
       'O conhecimento é capaz de transformar vidas. Esta é uma das missões dos universitários que participam do Projeto Rondon, do Ministério da Defesa, que leva capacitação e partilha de vivências a diversas regiões do Brasil. Para falar sobre o impacto dos projetos de extensão universitária na vida das pessoas, o Oxigênio - Central de Podcasts recebeu neste episódio a professora pós-doutorada Ednéia Casagranda Bueno, coordenadora do Conjunto A da Universidade do Vale do Itajaí (Univali) na Operação Amazonas 2025. Ouça e entenda um pouco mais sobre este lindo projeto, que desde os anos 70 dá uma “lição de brasilidades” a universitários de todo o país.',
     participantes: ['Oxigênio Central de Podcast', 'Ednéia Casagranda Bueno'],
@@ -113,7 +113,7 @@ const episodios = [
     ano: '2025',
     duracao: '35 min',
     descricaoCurta:
-      '“Se despir”: lições de vida e de cidadania, com a universitária Manuela de Pádua Portero',
+      'Manuela de Pádua Portero compartilha experiências transformadoras no Projeto Rondon.',
     descricaoCompleta:
       'Se você é capaz de esquecer o seu “vocabulário”, você tem asas para voar. Em outras palavras, “se despir” dos preceitos. Esta é uma das mensagens que a universitária Manuela de Pádua Portero, do curso de Psicologia da Universidade do Vale do Itajaí (Univali), esclareceu neste episódio do Oxigênio - Central de Podcasts sobre a participação na Operação Sentinelas Avançadas II, do Projeto Rondon. Ouça e conheça algumas das experiências transformadoras que marcaram a vida de Manuela e seus colegas.',
     participantes: ['Oxigênio Central de Podcast', 'Manuela de Pádua Portero'],
@@ -129,7 +129,7 @@ const episodios = [
     ano: '2025',
     duracao: '40 min',
     descricaoCurta:
-      'Bem-estar do verde: dicas para o cultivo de hortaliças, temperos e plantas, com Renê Artur Ferreira',
+      'Renê Artur Ferreira dá orientações sobre cultivo de plantas, hortaliças e temperos em casa.',
     descricaoCompleta:
       'O cultivo de plantas, hortaliças e temperos traz não apenas benefícios para a saúde física, mas também para a saúde mental. Embora a prática seja recomendada por especialistas, muitas pessoas não possuem a expertise para cultivar um espaço verde dentro de casa ou do apartamento, por exemplo. Neste episódio do Oxigênio Central de Podcast, o engenheiro agrônomo e responsável pelo Horto Medicinal da Univali, professor Renê Artur Ferreira, nos dá dicas sobre o cultivo de plantas em ambientes internos. Ouça e comece hoje mesmo!',
     participantes: ['Oxigênio Central de Podcast', 'Renê Artur Ferreira'],
@@ -145,7 +145,7 @@ const episodios = [
     ano: '2025',
     duracao: '35 min',
     descricaoCurta:
-      'Entre Linhas e Agulhas: Rose Bittencourt e os 50 anos costurando histórias!',
+      'Rose Bittencourt relembra sua trajetória de mais de 50 anos na costura e na moda.',
     descricaoCompleta:
       'A costura é uma arte, carrega histórias, e passa de geração em geração conectando pessoas. Neste episódio do podcast, os estudantes do curso de Design de Moda entrevistam Rose Bittencourt, costureira com mais de 50 anos de trajetória. Ao longo da conversa, Rose compartilha sua experiência na costura e de vida, as transformações que pode viver na moda e a importância do trabalho manual, compartilhou também algumas curiosidades sobre esses anos de carreira. Um episódio para quem valoriza o feito à mão, a sabedoria de quem viveu a moda de perto e a inspiração de uma vida dedicada à costura. Aperte o play e conheça essa história!',
     participantes: ['Oxigênio Central de Podcast', 'Rose Bittencourt'],
@@ -161,7 +161,7 @@ const episodios = [
     ano: '2025',
     duracao: '58 min',
     descricaoCurta:
-      'Costura que cura: a arte de costurar como aliada da saúde mental, com Jaqueline Tesch e Matheus Oliver',
+      'O episódio aborda a costura como prática de foco, acolhimento e cuidado emocional.',
     descricaoCompleta:
       'Costura que cura: a arte de costurar como aliada da saúde mental, com Jaqueline Tesch e Matheus OliverA prática da costura vai muito além da criação de peças e roupas: ela também pode ser uma poderosa aliada no cuidado com a saúde emocional. Em meio a tecidos, linhas e agulhas, muitas pessoas encontram um espaço de silêncio, foco e acolhimento. Neste episódio do Oxigênio Central Podcast, conversamos sobre como a costura pode funcionar como uma forma de terapia e autocuidado. Ouça e descubra os benefícios de costurar o próprio bem-estar!',
     participantes: ['Oxigênio Central de Podcast', 'Jaqueline Tesch e Matheus Oliver'],
@@ -177,7 +177,7 @@ const episodios = [
     ano: '2026',
     duracao: '8 min',
     descricaoCurta:
-      'O papel dos congressos na formação acadêmica de estudantes de comunicação - Especial Intercom Sul 2026',
+      'Estudantes de jornalismo mostram como congressos contribuem para a formação acadêmica.',
     descricaoCompleta:
       'Neste episódio você acompanhará algumas entrevistas feitas pelos acadêmicos de jornalismo da Univali no Intercom Sul 2026, realizado entre os dias 4 e 6 de junho em Toledo, no Oeste do Paraná. Além de praticar as técnicas de entrevista, reportagem e comunicação, os acadêmicos Caio da Costa, Júlia Kato e Luiza Kramer descobriram um pouco mais sobre a importância dos congressos para o desenvolvimento de novos conhecimentos científicos e conexões fundamentais ao longo da carreira, seja na área da comunicação ou fora dela. Nosso objetivo com este episódio do Oxigênio é dar visibilidade ao trabalho dos estudantes e estimular você, que está nos ouvindo, a procurar novos horizontes, novos voos dentro da área em que está atuando! ',
     participantes: ['Oxigênio Central de Podcast', 'Caio da Costa, Júlia Kato e Luiza Kramer'],
