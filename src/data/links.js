@@ -1,16 +1,15 @@
-// Links centralizados. Confirme e substitua estes enderecos sempre que houver canais oficiais atualizados.
 const links = [
   {
     id: 'spotify',
     nome: 'Spotify',
-    endereco: 'https://open.spotify.com/show/3XVCx0BbOhQy2eSQ3EuZXo',
-    observacao: 'Canal publico encontrado para Oxigenio - Central de Podcasts.',
+    endereco: 'https://creators.spotify.com/pod/profile/centraldepodcastoxigenio/',
+    observacao: 'Canal Oxigenio - Central de Podcasts.',
   },
   {
     id: 'instagram',
     nome: 'Instagram',
     endereco: 'https://www.instagram.com/podcastoxigenio/',
-    observacao: 'Perfil publico encontrado para Oxigenio Central de Podcast.',
+    observacao: 'Perfil Oxigenio Central de Podcast.',
   },
   {
     id: 'institucional',
