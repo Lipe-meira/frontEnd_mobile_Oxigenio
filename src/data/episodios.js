@@ -1,4 +1,4 @@
-// Episodios demonstrativos. Substitua titulos, descricoes e links pelos dados oficiais quando forem confirmados.
+// Episódios cadastrados no aplicativo.
 const episodios = [
   {
     id: '1',
@@ -13,7 +13,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Ana Júlia Krensiglova, Adriano Marenzi'],
     link: 'https://open.spotify.com/episode/00T3Rch8aWrUysBnMQDp7M',
     destaque: false,
-    demonstrativo: true,
   },
   {
     id: '2',
@@ -28,7 +27,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Wagner Kuhnen, Vê Domingos'],
     link: 'https://open.spotify.com/episode/2X4bqbh0hRGPMp4UeU3us5',
     destaque: false,
-    demonstrativo: true,
   },
   {
     id: '3',
@@ -43,7 +41,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Eduardo Krieger'],
     link: 'https://open.spotify.com/episode/543A3xDCVOldbWTo4rzhwn',
     destaque: false,
-    demonstrativo: true,
   },
   {
     id: '4',
@@ -58,7 +55,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Dona Marli Martins'],
     link: 'https://open.spotify.com/episode/5UUZL2SQVkZmYjMUQdr1hV',
     destaque: false,
-    demonstrativo: true,
   },
   {
     id: '5',
@@ -73,7 +69,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast',   'Lúcio Vieira'],
     link: 'https://open.spotify.com/episode/7KMozBHwTFwYezTcXR1elp',
     destaque: false,
-    demonstrativo: true,
   },
   {
     id: '6',
@@ -88,7 +83,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Dona Bernadete Berto'],
     link: 'https://open.spotify.com/episode/4Gqy90CsPclC4DhB5HCQJg',
     destaque: false,
-    demonstrativo: true,
   },
   {
     id: '7',
@@ -103,7 +97,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Ednéia Casagranda Bueno'],
     link: 'https://open.spotify.com/episode/32J89bwfBDnoDtOyhT81ma',
     destaque: false,
-    demonstrativo: true,
   },
 
    {
@@ -119,7 +112,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Manuela de Pádua Portero'],
     link: 'https://open.spotify.com/episode/5ZxNtNdFX53gVql64Mapzq',
     destaque: false,
-    demonstrativo: true,
   },
 
    {
@@ -135,7 +127,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Renê Artur Ferreira'],
     link: 'https://open.spotify.com/episode/24ab3VeZRsPvMLyVKfJa9n',
     destaque: false,
-    demonstrativo: true,
   },
 
    {
@@ -151,7 +142,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Rose Bittencourt'],
     link: 'https://open.spotify.com/episode/1cdgzEqN7u7kb562vYt6Kd',
     destaque: false,
-    demonstrativo: true,
   },
 
      {
@@ -163,11 +153,10 @@ const episodios = [
     descricaoCurta:
       'O episódio aborda a costura como prática de foco, acolhimento e cuidado emocional.',
     descricaoCompleta:
-      'Costura que cura: a arte de costurar como aliada da saúde mental, com Jaqueline Tesch e Matheus OliverA prática da costura vai muito além da criação de peças e roupas: ela também pode ser uma poderosa aliada no cuidado com a saúde emocional. Em meio a tecidos, linhas e agulhas, muitas pessoas encontram um espaço de silêncio, foco e acolhimento. Neste episódio do Oxigênio Central Podcast, conversamos sobre como a costura pode funcionar como uma forma de terapia e autocuidado. Ouça e descubra os benefícios de costurar o próprio bem-estar!',
+      'Costura que cura: a arte de costurar como aliada da saúde mental, com Jaqueline Tesch e Matheus Oliver. A prática da costura vai muito além da criação de peças e roupas: ela também pode ser uma poderosa aliada no cuidado com a saúde emocional. Em meio a tecidos, linhas e agulhas, muitas pessoas encontram um espaço de silêncio, foco e acolhimento. Neste episódio do Oxigênio Central Podcast, conversamos sobre como a costura pode funcionar como uma forma de terapia e autocuidado. Ouça e descubra os benefícios de costurar o próprio bem-estar!',
     participantes: ['Oxigênio Central de Podcast', 'Jaqueline Tesch e Matheus Oliver'],
     link: 'https://open.spotify.com/episode/43CqWVYUXCdbPrClqGDwm9',
     destaque: false,
-    demonstrativo: true,
   },
 
    {
@@ -183,7 +172,6 @@ const episodios = [
     participantes: ['Oxigênio Central de Podcast', 'Caio da Costa, Júlia Kato e Luiza Kramer'],
     link: 'https://open.spotify.com/episode/6FAjW9rBmTRlBubJwMqqDB',
     destaque: true,
-    demonstrativo: true,
   },
 ];
 

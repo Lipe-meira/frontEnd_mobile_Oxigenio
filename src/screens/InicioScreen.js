@@ -22,9 +22,8 @@ export default function InicioScreen({ navigation }) {
           <Text style={styles.titulo}>Oxigênio</Text>
           <Text style={styles.subtitulo}>Central de Podcast</Text>
           <Text style={styles.apresentacao}>
-            Aplicativo acadêmico para reunir episódios demonstrativos e atalhos de
-            acesso a canais externos relacionados ao projeto de extensão Oxigênio,
-            com base em materiais públicos.
+            Aplicativo acadêmico para reunir episódios e atalhos de acesso a canais externos 
+            relacionados ao projeto de extensão Oxigênio, com base em materiais públicos.
           </Text>
         </View>
 

@@ -58,7 +58,7 @@ export default function EpisodiosScreen({ navigation }) {
             <View style={styles.cabecalho}>
               <Text style={styles.titulo}>Episódios</Text>
               <Text style={styles.texto}>
-                Consulte episódios demonstrativos organizados por tema. A pesquisa
+                Consulte os episódios organizados por tema. A pesquisa
                 funciona localmente por título, categoria, ano e descrição.
               </Text>
 

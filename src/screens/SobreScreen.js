@@ -25,7 +25,7 @@ export default function SobreScreen() {
           <Text style={styles.subtitulo}>Proposta do aplicativo</Text>
           <Text style={styles.texto}>
             Este aplicativo é um protótipo acadêmico criado para centralizar
-            episódios demonstrativos e atalhos para plataformas externas em uma
+            episódios e atalhos para plataformas externas em uma
             interface simples, organizada e fácil de atualizar.
           </Text>
         </View>
@@ -44,8 +44,8 @@ export default function SobreScreen() {
           <Text style={styles.texto}>
             O levantamento foi feito a partir de materiais públicos disponíveis na
             internet. Não houve entrevista com os responsáveis pelo projeto, não
-            foi possível confirmar a situação atual do Oxigênio e os episódios
-            exibidos neste app são demonstrativos.
+            foi possível confirmar a situação atual do Oxigênio e Os episódios exibidos neste app 
+            foram cadastrados com base nas informações disponíveis nos canais públicos do projeto.
           </Text>
         </View>
 

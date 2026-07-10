@@ -1,6 +1,6 @@
 # Oxigênio - Central de Podcast
 
-Aplicativo mobile acadêmico desenvolvido em React Native com Expo. A proposta é reunir, em uma interface única, episódios demonstrativos e links externos relacionados ao projeto de extensão **Oxigênio - Central de Podcast**, da Univali.
+Aplicativo mobile acadêmico desenvolvido em React Native com Expo. A proposta é reunir, em uma interface única, episódios e links externos relacionados ao projeto de extensão **Oxigênio - Central de Podcast**, da Univali.
 
 ## Contexto acadêmico
 
@@ -95,7 +95,7 @@ npx expo start -c
 ## Funcionalidades
 
 - Tela inicial com apresentação do protótipo.
-- Episódio demonstrativo em destaque.
+- Episódio em destaque.
 - Lista de episódios com pesquisa local.
 - Tela de detalhes do episódio.
 - Abertura segura de links externos com `Linking`.
@@ -147,7 +147,6 @@ Os episódios ficam em:
 src/data/episodios.js
 ```
 
-Os dados atuais são demonstrativos. Substitua títulos, descrições, participantes, duração e links quando houver episódios oficiais confirmados.
 
 ## Onde editar os links
 
@@ -162,11 +161,7 @@ Spotify, Instagram e página institucional foram centralizados para facilitar a 
 ## Limitações
 
 - O aplicativo não usa back-end, banco de dados nem autenticação.
-- Os episódios exibidos são demonstrativos.
 - Não houve entrevista com responsáveis pelo projeto.
 - A situação atual do projeto Oxigênio não foi confirmada.
 - Alguns links podem precisar ser revisados e substituídos por canais oficiais atualizados.
 
-## Aviso sobre dados demonstrativos
-
-Nenhum episódio demonstrativo deve ser apresentado como episódio real. O objetivo é mostrar como o acervo poderia ser organizado dentro de um aplicativo simples em React Native.

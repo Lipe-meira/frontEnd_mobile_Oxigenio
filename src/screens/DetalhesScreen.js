@@ -80,14 +80,6 @@ export default function DetalhesScreen({ route, navigation }) {
           <Text style={styles.texto}>{episodio.participantes.join(', ')}</Text>
         </View>
 
-        <View style={styles.avisoBox}>
-          <Text style={styles.avisoTitulo}>Conteúdo demonstrativo</Text>
-          <Text style={styles.avisoTexto}>
-            Este item foi criado para o protótipo acadêmico e não deve ser
-            apresentado como episódio real confirmado.
-          </Text>
-        </View>
-
         <Text style={styles.avisoExterno}>
           Ao tocar em ouvir, você será direcionado para uma plataforma externa.
         </Text>
@@ -157,25 +149,6 @@ const styles = StyleSheet.create({
     color: cores.textoSuave,
     fontSize: 15,
     lineHeight: 23,
-  },
-  avisoBox: {
-    backgroundColor: cores.creme,
-    borderRadius: 8,
-    padding: 16,
-    marginTop: 4,
-    borderWidth: 1,
-    borderColor: cores.destaque,
-  },
-  avisoTitulo: {
-    color: cores.primarioEscuro,
-    fontSize: 16,
-    fontWeight: '900',
-    marginBottom: 6,
-  },
-  avisoTexto: {
-    color: cores.textoSuave,
-    fontSize: 14,
-    lineHeight: 20,
   },
   avisoExterno: {
     color: cores.textoSuave,
