@@ -52,7 +52,12 @@ export default function SobreScreen() {
         <Text style={styles.tituloSecao}>Canais externos</Text>
         <View style={styles.gradeLinks}>
           {links.map((link) => (
-            <BotaoLink key={link.id} nome={link.nome} endereco={link.endereco} />
+            <BotaoLink
+              key={link.id}
+              nome={link.nome}
+              endereco={link.endereco}
+              variante={link.id === 'voluntarie-se' ? 'destaque' : 'suave'}
+            />
           ))}
         </View>
       </ScrollView>
@@ -70,14 +75,14 @@ const styles = StyleSheet.create({
     paddingBottom: 32,
   },
   titulo: {
-    color: cores.azulEscuro,
+    color: cores.primarioEscuro,
     fontSize: 30,
     fontWeight: '900',
     marginBottom: 16,
   },
   card: {
-    backgroundColor: cores.branco,
-    borderRadius: 12,
+    backgroundColor: cores.superficie,
+    borderRadius: 8,
     padding: 16,
     borderWidth: 1,
     borderColor: cores.borda,

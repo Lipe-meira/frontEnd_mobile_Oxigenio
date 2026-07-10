@@ -61,7 +61,7 @@ export default function InicioScreen({ navigation }) {
                   key={link.id}
                   nome={link.nome}
                   endereco={link.endereco}
-                  style={{backgroundColor: cores.vermelho}}
+                  variante="destaque"
                 />
               )
             )}
@@ -90,22 +90,22 @@ const styles = StyleSheet.create({
   },
   selo: {
     alignSelf: 'flex-start',
-    backgroundColor: cores.azulClaro,
-    color: cores.azulEscuro,
+    backgroundColor: cores.pessegoClaro,
+    color: cores.primarioEscuro,
     fontSize: 13,
     fontWeight: '700',
     paddingHorizontal: 10,
     paddingVertical: 6,
-    borderRadius: 16,
+    borderRadius: 999,
     marginBottom: 14,
   },
   titulo: {
-    color: cores.azulEscuro,
+    color: cores.primarioEscuro,
     fontSize: 38,
     fontWeight: '900',
   },
   subtitulo: {
-    color: cores.verdeAgua,
+    color: cores.primario,
     fontSize: 21,
     fontWeight: '800',
     marginTop: 2,
@@ -117,20 +117,20 @@ const styles = StyleSheet.create({
     marginTop: 14,
   },
   cardDestaque: {
-    backgroundColor: cores.branco,
-    borderRadius: 12,
+    backgroundColor: cores.superficie,
+    borderRadius: 8,
     padding: 18,
     borderWidth: 1,
     borderColor: cores.borda,
     marginBottom: 8,
     elevation: 2,
-    shadowColor: '#000000',
+    shadowColor: cores.sombra,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.08,
     shadowRadius: 5,
   },
   rotulo: {
-    color: cores.verdeAgua,
+    color: cores.primario,
     fontSize: 14,
     fontWeight: '800',
     marginBottom: 8,
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   categoria: {
-    color: cores.azulMedio,
+    color: cores.acento,
     fontSize: 15,
     fontWeight: '700',
     marginBottom: 10,

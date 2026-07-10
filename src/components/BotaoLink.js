@@ -2,7 +2,9 @@ import { Alert, Linking, StyleSheet, Text, TouchableOpacity } from 'react-native
 
 import cores from '../styles/cores';
 
-export default function BotaoLink({ nome, endereco, style }) {
+export default function BotaoLink({ nome, endereco, variante = 'suave', style }) {
+  const destaque = variante === 'destaque';
+
   async function abrirLink() {
     if (!endereco) {
       Alert.alert('Link indisponível', 'O endereço desta plataforma ainda não foi informado.');
@@ -24,12 +26,12 @@ export default function BotaoLink({ nome, endereco, style }) {
 
   return (
     <TouchableOpacity
-      style={[styles.botao, style]}
+      style={[styles.botao, destaque && styles.botaoDestaque, style]}
       onPress={abrirLink}
       activeOpacity={0.8}
       accessibilityRole="button"
     >
-      <Text style={styles.texto}>{nome}</Text>
+      <Text style={[styles.texto, destaque && styles.textoDestaque]}>{nome}</Text>
     </TouchableOpacity>
   );
 }
@@ -39,18 +41,25 @@ const styles = StyleSheet.create({
     minHeight: 44,
     paddingHorizontal: 14,
     paddingVertical: 11,
-    borderRadius: 10,
-    backgroundColor: cores.azulClaro,
+    borderRadius: 8,
+    backgroundColor: cores.pessegoClaro,
     borderWidth: 1,
     borderColor: cores.borda,
     alignItems: 'center',
     justifyContent: 'center',
     flexGrow: 1,
   },
+  botaoDestaque: {
+    backgroundColor: cores.alerta,
+    borderColor: cores.alerta,
+  },
   texto: {
-    color: cores.azulEscuro,
+    color: cores.primarioEscuro,
     fontSize: 14,
     fontWeight: '700',
     textAlign: 'center',
+  },
+  textoDestaque: {
+    color: cores.cremeClaro,
   },
 });

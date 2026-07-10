@@ -25,14 +25,14 @@ export default function CardEpisodio({ episodio, aoAbrir }) {
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: cores.branco,
-    borderRadius: 12,
+    backgroundColor: cores.superficie,
+    borderRadius: 8,
     padding: 16,
     marginBottom: 14,
     borderWidth: 1,
     borderColor: cores.borda,
     elevation: 2,
-    shadowColor: '#000000',
+    shadowColor: cores.sombra,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.08,
     shadowRadius: 5,
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   categoria: {
-    color: cores.verdeAgua,
+    color: cores.primario,
     fontSize: 13,
     fontWeight: '700',
     flex: 1,
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   duracao: {
-    color: cores.azulMedio,
+    color: cores.acento,
     fontSize: 14,
     fontWeight: '600',
     marginBottom: 8,
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     lineHeight: 21,
   },
   detalhes: {
-    color: cores.azulEscuro,
+    color: cores.primarioEscuro,
     fontSize: 15,
     fontWeight: '800',
     marginTop: 12,
