@@ -4,11 +4,93 @@ Aplicativo mobile acadêmico desenvolvido em React Native com Expo. A proposta �
 
 ## Contexto acadêmico
 
-O app foi criado como protótipo funcional para um trabalho acadêmico. A proposta se baseia em materiais públicos encontrados sobre o projeto Oxigênio, sem entrevista com os responsáveis e sem confirmação da situação atual do projeto.
+Este app foi criado como protótipo funcional para um trabalho acadêmico. Ele se baseia em materiais públicos encontrados sobre o projeto Oxigênio, sem entrevista com os responsáveis e sem confirmação da situação atual do projeto.
 
 ## Problema ou oportunidade
 
 Durante a análise dos canais públicos, foi identificada a oportunidade de reunir os conteúdos em uma única interface, facilitando a localização do acervo e o acesso às plataformas externas.
+
+## Como executar para avaliação
+
+Siga estes passos para rodar o aplicativo no celular usando o Expo Go ou em um emulador Android.
+
+### 1. Pré-requisitos
+
+- Node.js 22.13.x ou superior, conforme a documentação do Expo SDK 57.
+- npm, instalado junto com o Node.js.
+- Expo Go instalado no celular, caso vá executar em aparelho físico.
+- Android Studio com emulador configurado, caso vá executar no computador.
+
+Não é necessário instalar a Expo CLI globalmente. Os comandos usam a versão local do projeto.
+
+### 2. Baixar e abrir o projeto
+
+Abra um terminal na pasta do projeto:
+
+```bash
+cd frontEnd_Mobile_Oxigenio
+```
+
+Se a pasta tiver outro nome no computador, entre na pasta onde estão os arquivos `package.json` e `App.js`.
+
+### 3. Instalar as dependências
+
+Execute apenas uma vez:
+
+```bash
+npm install
+```
+
+### 4. Iniciar o servidor do Expo
+
+Depois da instalação, execute:
+
+```bash
+npm start
+```
+
+O comando abre o Metro Bundler do Expo no terminal e mostra um QR Code.
+
+### 5. Abrir no celular com Expo Go
+
+1. Deixe o computador e o celular na mesma rede Wi-Fi.
+2. Abra o aplicativo Expo Go no celular.
+3. Escaneie o QR Code exibido no terminal.
+4. Aguarde o carregamento do aplicativo.
+
+Caso a rede da instituição bloqueie a conexão local, rode:
+
+```bash
+npx expo start --tunnel
+```
+
+Depois escaneie o novo QR Code.
+
+### 6. Abrir no emulador Android
+
+1. Abra o emulador pelo Android Studio.
+2. Com o emulador aberto, execute:
+
+```bash
+npm run android
+```
+
+Também é possível iniciar com `npm start` e pressionar a tecla `a` no terminal.
+
+## Scripts disponíveis
+
+```bash
+npm start        # inicia o Expo
+npm run android  # abre no emulador/dispositivo Android
+npm run ios      # abre no simulador iOS, apenas em macOS
+npm run web      # tenta abrir a versão web pelo Expo
+```
+
+Para limpar o cache do Expo em caso de erro de carregamento:
+
+```bash
+npx expo start -c
+```
 
 ## Funcionalidades
 
@@ -55,47 +137,6 @@ App.js
 app.json
 index.js
 package.json
-```
-
-## Pré-requisitos
-
-- Node.js compatível com Expo SDK 57.
-- npm.
-- Expo Go no celular ou emulador Android configurado.
-
-## Instalação
-
-Na pasta do projeto:
-
-```bash
-npm install
-```
-
-## Executar o projeto
-
-```bash
-npm start
-```
-
-ou:
-
-```bash
-npx expo start
-```
-
-## Abrir no Expo Go
-
-1. Execute `npm start`.
-2. Escaneie o QR Code exibido no terminal com o aplicativo Expo Go.
-3. Aguarde o carregamento do app no celular.
-
-## Abrir no emulador Android
-
-1. Abra o emulador pelo Android Studio.
-2. Execute:
-
-```bash
-npm run android
 ```
 
 ## Onde editar os episódios
