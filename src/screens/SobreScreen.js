@@ -43,9 +43,10 @@ export default function SobreScreen() {
           <Text style={styles.subtitulo}>Metodologia e limitações</Text>
           <Text style={styles.texto}>
             O levantamento foi feito a partir de materiais públicos disponíveis na
-            internet. Não houve entrevista com os responsáveis pelo projeto, não
-            foi possível confirmar a situação atual do Oxigênio e Os episódios exibidos neste app 
-            foram cadastrados com base nas informações disponíveis nos canais públicos do projeto.
+            internet. Não houve entrevista com os responsáveis pelo projeto e não
+            foi possível confirmar a situação atual do Oxigênio. Os episódios
+            exibidos neste app foram cadastrados com base nas informações
+            disponíveis nos canais públicos do projeto.
           </Text>
         </View>
 
